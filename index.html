@@ -127,23 +127,29 @@
         <div class="row">
           <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
           
-            <img src="" alt="Image of your project" class="img-fluid">
+            <img src="images/GraphBirthdayProbabilities2.png" alt="Image of your project" class="img-fluid">
           
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
-              <h3>Project Title</h3>
+              <h3>Birthday Paradox</h3>
               <p>
-               Motivation of the project
+               We wanted to artificially create experiments using random numbers to determine the legitimacy
+               of this research.
               </p>
               <p>
-              Functional requirements/what the project does
+              The project creates several mock trials and finds the probability that at least 2 people have 
+              the same birthday in that sample group.
               </p>
               <p>
-              Project design
+              We created sample groups in incriments of 5 from 5 to 100, and ran 20 trials for each sample 
+              group. Their birthdays were completely randomly generated. Then we recorded the percentage of 
+              trials which had 1 or more duplicate birthdays.
               </p>
               <p>
-              Implementation
+              For creating random birthdays, we just assigned random numbers 1-12 for the month, and then 1-31
+              or 1-30 depending on the month. Then we used a hash table to record all of the birthdays so that
+              the program wouldn't have to loop through lists over and over again, which saved lots of time.
               </p>
 
 
