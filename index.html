@@ -213,6 +213,67 @@
         </div>
       </div>
     </div>
+
+ <div class="row align-items-start mt-5">
+  <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+    <img src="images/posUML.png" alt="Restaurant POS System project image" class="img-fluid">
+  </div>
+
+  <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+    <div class="mb-4">
+      <h3>Restaurant POS System</h3>
+
+      <p>
+        In this project, we are coding a Restaurant Point of Sale system that models how a restaurant handles
+        staff login, customer orders, kitchen tickets, inventory, payments, and receipts. The goal of this program
+        is to create a system where servers can create orders, chefs can view and update kitchen tickets, and
+        payments can be processed through multiple payment methods. This project pushed us to use object oriented
+        programming, design patterns, JavaFX, and Test Driven Development.
+      </p>
+
+      <p>
+        The program is intended to simulate the main workflow of a restaurant POS system. A staff member can log in
+        and be directed to the correct screen based on their role. Servers are able to start new orders, add menu
+        items, and send those orders to the kitchen. Chefs are able to view kitchen tickets and update the status of
+        an order as it moves through the kitchen. The system also keeps track of menu items, ingredients, inventory,
+        receipts, and payment status. The payment system supports cash, credit card, and mobile payments, with each
+        payment type having its own validation and processing behavior.
+      </p>
+
+      <p>
+        Our design makes use of several object oriented programming concepts and design patterns. Encapsulation is
+        used by keeping important fields private and exposing behavior through methods. Abstraction is used through
+        interfaces like PaymentMethod and shared types like MenuItem and MealFactory. Inheritance and polymorphism
+        are used through the different meal factories and payment methods, allowing the system to work with regular,
+        vegan, and gluten-free meals, as well as multiple payment types. The Factory Pattern is used to create
+        different categories of meals, while the Strategy Pattern is used for payment processing so that Payment can
+        work with CashPayment, CreditCardPayment, and MobilePayment without needing to know the exact type ahead of
+        time.
+      </p>
+
+      <p>
+        The JavaFX portion of the project gives the system a graphical interface instead of only running through
+        backend classes. We created different screens and controllers for logging in, managing server actions,
+        handling active orders, and viewing chef kitchen tickets. The controller classes connect the UI to the main
+        project logic, so the buttons and screens call the same backend classes that were tested separately.
+      </p>
+
+      <p>
+        I was responsible for helping implement several parts of the payment system, inventory behavior, and menu item setup. 
+        I worked on classes such as CashPayment, CreditCardPayment, MobilePayment, Payment, Receipt, Inventory, and parts of 
+        the JavaFX workflow. I also used Test Driven Development to write tests before implementing major parts of the payment 
+        and receipt system.
+      </p>
+
+      <p>
+        This project helped me get more comfortable with connecting backend Java classes to a JavaFX interface. I
+        also got more practice with Gradle, JUnit testing, Mockito, Checkstyle, and SpotBugs. One of the bigger
+        challenges was making sure the design stayed organized while also getting the JavaFX screens, payment logic,
+        inventory, and tests to all work together.
+      </p>
+    </div>
+  </div>
+</div>
       
 
     </section>
